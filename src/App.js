@@ -12,7 +12,6 @@ import Kamek from './assets/kamek.png';
 import Monkey from './assets/monkey.png';
 import Plant from './assets/plant.png';
 import uniqid from 'uniqid';
-import { click } from '@testing-library/user-event/dist/click';
 
 function App() {
   const [gameState, setGameState] = useState('start');
@@ -74,6 +73,13 @@ function App() {
     }
     if (clickedCards.length !== 0) {
       setCurrentScore((currentScore) => currentScore + 1);
+
+      const array = cardsGrid.slice();
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      setCardsGrid(array);
     }
   }, [clickedCards]);
 
