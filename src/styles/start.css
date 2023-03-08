@@ -1,0 +1,48 @@
+.start,
+.end {
+  display: flex;
+  flex-direction: column;
+  gap: 12.5px;
+  text-align: center;
+}
+
+.start > h1,
+.end > h1 {
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+  font-size: 10rem;
+}
+
+.start > button,
+.end > button {
+  color: white;
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+  font-family: '8Bit', sans-serif;
+  font-size: 5rem;
+  align-self: center;
+  width: fit-content;
+  border: 2px solid black;
+  background-color: transparent;
+}
+
+.end > h2 {
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000;
+  font-size: 7.5rem;
+}
+
+.start > button:hover,
+.end > button:hover {
+  cursor: pointer;
+  background-color: white;
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000, 0px 1px 3px black;
+}
+
+.start > button:active,
+.end > button:active {
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000,
+    1.5px 1.5px 0 #000, 0px 1.5px 3.5px black;
+  box-shadow: inset 0px 0.25px 0.5px black;
+}
