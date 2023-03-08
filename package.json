@@ -41,5 +41,6 @@
   "devDependencies": {
     "eslint-plugin-react-hooks": "^4.6.0",
     "gh-pages": "^5.0.0"
-  }
+  },
+  "homepage": "http://jdh58.github.io/memcard"
 }

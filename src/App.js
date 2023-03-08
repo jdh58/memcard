@@ -52,11 +52,17 @@ function App() {
     }
 
     setCardsGrid(grid);
+
+    // If there's a stored best score, add it.
+    if (localStorage.getItem('bestScore') > 0) {
+      setBestScore(localStorage.getItem('bestScore'));
+    }
   }, []);
 
   useEffect(() => {
     if (currentScore > bestScore) {
       setBestScore(currentScore);
+      localStorage.setItem('bestScore', `${currentScore}`);
     }
   }, [currentScore]);
 
