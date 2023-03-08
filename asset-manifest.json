@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/memcard/static/css/main.c50f979e.css",
+    "main.js": "/memcard/static/js/main.4268193d.js",
+    "static/media/chomp.png": "/memcard/static/media/chomp.ea763a31541c821b591b.png",
+    "static/media/plant.png": "/memcard/static/media/plant.c1b170285088588335bb.png",
+    "static/media/kamek.png": "/memcard/static/media/kamek.47ad29406dc6b76dc6d2.png",
+    "static/media/monkey.png": "/memcard/static/media/monkey.8fd01f4b785a5aa00a5d.png",
+    "static/media/bandit.png": "/memcard/static/media/bandit.95190661a4f9718812dd.png",
+    "static/media/shyguy.png": "/memcard/static/media/shyguy.cde766064d572741d619.png",
+    "static/media/Pixeboy-z8XGD.ttf": "/memcard/static/media/Pixeboy-z8XGD.143c9dc71d2a56d4bc46.ttf",
+    "static/media/yoshi.png": "/memcard/static/media/yoshi.8d672fe42f7b1dfabeba.png",
+    "index.html": "/memcard/index.html",
+    "main.c50f979e.css.map": "/memcard/static/css/main.c50f979e.css.map",
+    "main.4268193d.js.map": "/memcard/static/js/main.4268193d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c50f979e.css",
+    "static/js/main.4268193d.js"
+  ]
+}
