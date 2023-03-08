@@ -1,16 +1,15 @@
 import { useEffect } from 'react';
 import '../styles/card.css';
-import Yoshi from '../assets/yoshi.png';
 
 export default function Card(props) {
   useEffect(() => {});
 
   return (
-    <div className="card">
+    <div className="card" id={props.id} onClick={props.onClick}>
       <span className="image">
-        <img className="" src={Yoshi} alt="" />
+        <img className="" src={props.src} alt="" />
       </span>
-      <span className="name">Yoshi</span>
+      <span className="name">{props.name}</span>
     </div>
   );
 }
